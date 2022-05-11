@@ -9,7 +9,7 @@
 <body>
 
 
-    <form method = "post" action = "cadastro_usuario.php">
+    <form method = "post" action = "altera_usuario_exe.php">
 
         NOME: <input type ="text" id=nome name="txtNome" 
                 value="<?php echo $row['nome_usuario']?>" placeholder = "DIGITE O NOME: ">
@@ -23,6 +23,9 @@
 
         <br><br>
         <input type = submit value = ENVIAR>
+        <a href = 'index.php'> Voltar </a>
+
+        <input name = "id_usuario" type = "hidden" value = "<?php echo $row['id_usuario']?>">
         
     </form>
 
