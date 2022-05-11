@@ -17,7 +17,9 @@
     <title>LISTAGEM DE USUÁRIOS</title>
 </head>
 <body>
+    <center>
     <h1> LISTAGEM DE USUÁRIOS </h1>
+    </center>
     <table align="center" border="1" width = 500>
         <tr>
             <th>CÓDIGO</th>

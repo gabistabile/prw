@@ -10,5 +10,4 @@
         printf("ERRO AO CONECTAR AO BANCO DE DADOS: %s\n", mysqli_connect_error());
         exit;
     }
-    printf("BANCO DE DADOS CONECTADO COM SUCESSO \0/")
 ?>
