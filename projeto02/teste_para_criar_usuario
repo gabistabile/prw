@@ -1,0 +1,2 @@
+insert into usuario (nome_usuario, email_usuario, telefone_usuario)
+values ('Gabrielle','gabrielle.stabile@aluno.ifsp.edu.br','991542533');
