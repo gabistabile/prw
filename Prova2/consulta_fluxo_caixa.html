@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> FLUXO CAIXA </title>
+    </head>
+    <body>
+        <form method="POST" action="consulta_fluxo_caixa.php" enctype='multipart/form-data'>
+            <h2>CONSULTA DE FLUXO DE CAIXA</h2>
+            
+            <label for="tipo">TIPO DE CONSULTA:</label>
+            <input type="radio" id="tipo" name="tipo" value="saldo">SALDO TOTAL
+            <input type="radio" id="tipo" name="tipo" value="saida">TOTAL SAIDAS
+            <input type="radio" id="tipo" name="tipo" value="entrada">TOTAL ENTRADAS
+
+                <br>
+                <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
