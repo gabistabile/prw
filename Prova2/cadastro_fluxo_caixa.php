@@ -1,7 +1,7 @@
 <?php
 include ('conexao.php');
 
-$data = $_POST['tipo'];
+$data = $_POST['data'];
 $tipo = $_POST['tipo'];
 $valor = $_POST['valor'];
 $historico = $_POST['historico'];

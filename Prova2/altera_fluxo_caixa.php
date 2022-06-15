@@ -1,5 +1,5 @@
 <?php
-
+//GABRIELLE
     include('conexao.php');
     $id_agenda = $_GET['id_fluxo_caixa'];
     $sql = 'SELECT * FROM fluxo_caixa where id_fluxo_caixa = '.$id_fluxo_caixa;
